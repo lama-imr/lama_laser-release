@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>lj_laser_heading</name>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <description>Localizing jockey from LaserScan and absolute heading.
     Implements a localizing jockey from a LaserScan and absolute heading.
     The associated descriptors are sensor_msgs/LaserScan[] and
