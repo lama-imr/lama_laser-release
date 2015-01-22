@@ -1,0 +1,12 @@
+Source: ros-indigo-nj-oa-laser
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-angles, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-lama-jockeys, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: http://wiki.ros.org/nj_oa_laser
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nj-oa-laser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-angles, ros-indigo-geometry-msgs, ros-indigo-lama-jockeys, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: The nj_oa_laser package is a navigating jockey for the Large Maps framework. Its role is to drive the robot forward while avoiding obstacles. It uses a LaserScan.
