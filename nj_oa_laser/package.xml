@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package>
+  <name>nj_oa_laser</name>
+  <version>0.1.2</version>
+  <description>The nj_oa_laser package is a navigating jockey for the Large
+	  Maps framework. Its role is to drive the robot forward while avoiding
+	  obstacles. It uses a LaserScan.</description>
+
+  <maintainer email="gael.ecorchard@ciirc.cvut.cz">Gaël Ecorchard</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <url type="website">http://wiki.ros.org/nj_oa_laser</url>
+  <url type="repository">https://github.com/lama-imr/lama_laser.git</url>
+  <url type="bugtracker">https://github.com/lama-imr/lama_laser/issues</url>
+
+
+  <author email="gael.ecorchard@ciirc.cvut.cz">Gaël Ecorchard</author>
+  <author email="kosnar@labe.felk.cvut.cz">Karel Košnar</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>angles</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>lama_jockeys</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <run_depend>angles</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>lama_jockeys</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+
+  <export>
+  </export>
+</package>
