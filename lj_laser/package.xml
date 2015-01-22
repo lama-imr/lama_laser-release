@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>lj_laser</name>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <description>Localizing jockey from LaserScan
 
 	  Implement a localizing jockey from a LaserScan. The associated descriptor
