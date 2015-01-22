@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>nj_oa_laser</name>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <description>The nj_oa_laser package is a navigating jockey for the Large
 	  Maps framework. Its role is to drive the robot forward while avoiding
 	  obstacles. It uses a LaserScan.</description>
