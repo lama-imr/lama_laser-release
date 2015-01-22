@@ -26,14 +26,14 @@
  *
  * Services used (other than map-related):
  * - service type, server default name, description
- * - polygon_matcher::PolygonDissimilarity, "~/dissimilarity_server", used to
+ * - polygon_matcher::PolygonDissimilarity, "~/compute_dissimilarity", used to
  *    compare all known places with the current place
  *
  * Parameters:
  * - name, type, default name, description
  * - laser_interface_name, String, jockey_name + "_laser", name of the map interface for 360-degree laser-scan.
  * - crossing_interface_name, String, jockey_name + "_crossing", name of the map interface for crossing.
- * - dissimilarity_server_name, String, "dissimilarity_server", name of the dissimilarity server.
+ * - dissimilarity_server_name, String, "compute_dissimilarity", name of the dissimilarity server.
  */
 
 #ifndef _LJ_LASER_JOCKEY_H_
