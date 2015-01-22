@@ -24,7 +24,7 @@
  * Publishers (other than map-related):
  * - 
  * Services used (other than map-related):
- * - polygon_matcher::PolygonDisimilarity, "~/dissimilarity_server"
+ * - polygon_matcher::PolygonDisimilarity, "~/compute_dissimilarity"
  */
 
 #ifndef _LJ_LASER_HEADING_JOCKEY_H_
