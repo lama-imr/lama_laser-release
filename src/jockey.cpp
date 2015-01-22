@@ -8,7 +8,7 @@ Jockey::Jockey(std::string name, const double frontier_width, const double max_f
   scan_reception_time_(ros::Time(0)),
   laser_interface_name_(name + "_laser"),
   crossing_interface_name_(name + "_crossing"),
-  dissimilarity_server_name_("dissimilarity_server"),
+  dissimilarity_server_name_("compute_dissimilarity"),
   crossing_detector_(frontier_width, max_frontier_angle)
 {
   private_nh_.getParam("laser_interface_name", laser_interface_name_);
